@@ -1,6 +1,7 @@
 import "./App.css";
 import { ReactComponent as WorkIcon } from "./work.svg";
 import { ReactComponent as SchoolIcon } from "./school.svg";
+import phong from "./phong.jpg";
 
 import timelineElements from "./timelineElements";
 
@@ -17,7 +18,7 @@ function App() {
 
   return (
     <div>
-      <h1 className="title">Timeline</h1>
+      <h1 className="title">Gia-Phong Tran</h1>
       <VerticalTimeline>
         {timelineElements.map((element) => {
           let isWorkIcon = element.icon === "work";
