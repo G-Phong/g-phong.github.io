@@ -20,6 +20,7 @@ function App() {
         handleButtonClick={handleButtonClick}
       />
       <Content content={content} />
+      
     </div>
   );
 }

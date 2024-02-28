@@ -20,15 +20,16 @@ import img_insi_singen from "../assets/insi_singen.png";
 function Passions() {
   return (
     <div className="free-time-activities">
-      <h2>Free Time Activities</h2>
+      <h2>My Passions</h2>
       <div className="carousel-wrapper">
         <div className="carousel-container">
           <Carousel
             showArrows={true}
             showThumbs={true}
-            width={400}
+            width={1000} 
             transitionTime={10}
             showIndicators={true}
+            centerMode = {false}
             infiniteLoop={true}
             autoPlay={true}
             axis="horizontal"
@@ -36,59 +37,60 @@ function Passions() {
           >
             <div>
               <img src={img_phong_chess_thinking} alt="Chess Thinking" />
-              <p>Description of Chess Thinking</p>
+              <p className="legend">Description of Chess Thinking</p>
+              
             </div>
             <div>
               <img src={img_phong_run} alt="Running" />
-              <p>Description of Running</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_fussball_2018} alt="Playing Football" />
-              <p>Description of Playing Football</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_gartenhaus} alt="Gartenhaus" />
-              <p>Description of Gartenhaus</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_internationals} alt="International Experiences" />
-              <p>Description of International Experiences</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_mechanics} alt="Mechanical Engineering" />
-              <p>Description of Mechanical Engineering</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_phong_greek_flag} alt="Greek Flag" />
-              <p>Description of Greek Flag</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_phong_gym} alt="Gym Workout" />
-              <p>Description of Gym Workout</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_phong_science} alt="Science in Prague" />
-              <p>Description of Science in Prague</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_phong_tum_graduate} alt="Graduation from TUM" />
-              <p>Description of Graduation from TUM</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_team_athen} alt="Team in Athens" />
-              <p>Description of Team in Athens</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_foodtruck} alt="Foodtruck" />
-              <p>Description of Foodtruck</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_thaiboxen} alt="Thai Boxing" />
-              <p>Description of Thai Boxing</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
             <div>
               <img src={img_insi_singen} alt="Insi Singen" />
-              <p>Description of Insi Singen</p>
+              <p className="legend">Description of Chess Thinking</p>
             </div>
           </Carousel>
         </div>
