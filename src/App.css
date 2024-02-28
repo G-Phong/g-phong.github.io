@@ -6,10 +6,61 @@ body {
 }
 
 .title {
-  font-size: 12em;
+  font-size: 8em;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
+  background-color: rgb(148, 178, 195);
+  color: #bbbbbb;
+  margin: 0;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  /* Animation */
+  background: linear-gradient(to right, #a9a9a9, #40585f, #70c1cb, #6d7991);
+  background-size: 400% 100%;
+  animation: gradientAnimation 10s ease infinite;
+  /* Textschatten */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+.subtitle {
+  font-size: 1.5em;
+  width: 90%;
+  height: 3vh;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: rgb(148, 178, 195);
+  color: rgb(26, 26, 26);
+  margin: 0;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.social-buttons {
+  width: 10%;
+  height: 3vh;
+  background-color: rgb(148, 178, 195);
+  margin: 0;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+
+.social-icon {
+  width: 30px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust the spacing between the icons */
+}
+
 
 h3 {
   padding-top: 0.25em;
@@ -60,3 +111,50 @@ h3 {
     margin-top: 1.5em;
   }
 }
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 40vh;;
+  height: 20vh;
+  object-fit: scale-down; /* Bild skalieren, um den Container zu füllen */
+  margin-bottom: 1vh;
+}
+
+.buttons-container {
+  display: flex;
+  width: 100%;
+}
+
+
+.navigation-bar {
+  background-color: #184257;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-button {
+  flex-grow: 1;
+  width: calc(100% / 3); /* Aufteilen in 3 gleich große Teile */
+  padding: 10px 0;
+  background-color: black;
+  color: white;
+  border: solid;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.nav-button:hover {
+  background-color: #f3bc3c;
+}
+
+.subtitle-container {
+  display: flex;
+  align-items: center;
+}
+
