@@ -33,7 +33,7 @@ body {
 
 .subtitle {
   font-size: 1.5em;
-  width: 90%;
+  width: 100%;
   height: 3vh;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
@@ -42,21 +42,6 @@ body {
   margin: 0;
   padding-top: 3vh;
   padding-bottom: 3vh;
-}
-
-.social-buttons {
-  width: 10%;
-  height: 3vh;
-  background-color: rgb(148, 178, 195);
-  margin: 0;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-}
-
-.social-icon {
-  width: 30px; /* Adjust the width as needed */
-  height: auto;
-  margin-right: 10px; /* Adjust the spacing between the icons */
 }
 
 h3 {
@@ -156,6 +141,12 @@ h3 {
 
 .free-time-activities {
   text-align: center;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+
+.carousel-wrapper {
+  padding-top: 3vh;
 }
 
 .free-time-activities .carousel.carousel-slider {
@@ -165,26 +156,11 @@ h3 {
   height: 500px;
   padding: 0;
 }
-.footer {
-  background-color: #333; 
-  color: #fff;
-  padding-top: 0.5vh;
-  padding-bottom: 0.5vh;
-  text-align: center;
-  position: relative; 
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
 
-.footer-content {
-  max-width: 1200px;
-  margin: 0 auto; 
-}
-
-.projects{
+.projects {
   text-align: center;
-  padding-bottom: 3vh;
+  padding-bottom: 10vh;
+  padding-top: 3vh;
 }
 
 .card-container {
@@ -193,4 +169,13 @@ h3 {
   justify-content: center;
   margin: auto;
   padding: auto;
+  padding-top: 1vh;
+}
+
+.typing-effect {
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold; /* Optionally, make the text bold */
+  margin-top: 20px; /* Add top margin */
+  margin-bottom: 20px; /* Add bottom margin */
+  /* Add other styles as desired */
 }

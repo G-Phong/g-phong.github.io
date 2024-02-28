@@ -17,10 +17,12 @@ import img_foodtruck from "../assets/elephant_foodtruck.jpg";
 import img_thaiboxen from "../assets/thaiboxen.jpg";
 import img_insi_singen from "../assets/insi_singen.png";
 
+import TypingEffect from "./TypingEffect"; 
+
 function Passions() {
   return (
     <div className="free-time-activities">
-      <h2>My Passions</h2>
+      <TypingEffect text="My Passions"></TypingEffect>
       <div className="carousel-wrapper">
         <div className="carousel-container">
           <Carousel

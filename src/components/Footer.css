@@ -1,0 +1,28 @@
+.footer {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Add space between content and social buttons */
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: calc(90% - 20px); /* Adjust the maximum width of content */
+    /* Subtracting 20px to account for the width of the social buttons */
+    margin-left: 5vh;
+  }
+  
+  .social-buttons {
+    width: 10%; /* Set width for social buttons */
+    display: flex; /* Use flexbox to align items */
+    justify-content: flex-end; /* Align items to the end of the container */
+    margin-right: 5vh;
+  }
+  
+  .social-icon {
+    width: 30px; /* Adjust the width of the social icons */
+    height: auto;
+    margin-right: 10px; /* Adjust the spacing between the icons */
+  }
+  
