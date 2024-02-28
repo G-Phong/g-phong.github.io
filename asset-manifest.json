@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b38ecb6.css",
-    "main.js": "/static/js/main.414da4d6.js",
+    "main.css": "/static/css/main.3511ac43.css",
+    "main.js": "/static/js/main.32c3f9b0.js",
     "static/media/phong_chess_thinking.jpg": "/static/media/phong_chess_thinking.1b893612e41d8229e97e.jpg",
     "static/media/10km_run.jpg": "/static/media/10km_run.6c46bd2e77c1896434ef.jpg",
     "static/media/internationals_prague.jpg": "/static/media/internationals_prague.cb553dc8f695c867c0e3.jpg",
@@ -25,15 +25,16 @@
     "static/media/mech_eng.jpg": "/static/media/mech_eng.c6810ee409962ef8b9ba.jpg",
     "static/media/phong_greek_flag.jpg": "/static/media/phong_greek_flag.fe168143093232729222.jpg",
     "static/media/insi_singen.png": "/static/media/insi_singen.69835c0eab8b2f0d365a.png",
+    "static/media/email.png": "/static/media/email.ca1ec769418f28a531ee.png",
     "static/media/bertrandt.jpg": "/static/media/bertrandt.1295e320c454da87ebd4.jpg",
     "static/media/school.svg": "/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/index.html",
-    "main.5b38ecb6.css.map": "/static/css/main.5b38ecb6.css.map",
-    "main.414da4d6.js.map": "/static/js/main.414da4d6.js.map"
+    "main.3511ac43.css.map": "/static/css/main.3511ac43.css.map",
+    "main.32c3f9b0.js.map": "/static/js/main.32c3f9b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b38ecb6.css",
-    "static/js/main.414da4d6.js"
+    "static/css/main.3511ac43.css",
+    "static/js/main.32c3f9b0.js"
   ]
 }
