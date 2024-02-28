@@ -186,3 +186,11 @@ h3 {
   text-align: center;
   padding-bottom: 3vh;
 }
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
