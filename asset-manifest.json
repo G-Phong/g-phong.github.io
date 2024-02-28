@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d80c684.css",
-    "main.js": "/static/js/main.70b74b87.js",
-    "static/media/school.svg": "/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
-    "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
-    "index.html": "/index.html",
-    "main.0d80c684.css.map": "/static/css/main.0d80c684.css.map",
-    "main.70b74b87.js.map": "/static/js/main.70b74b87.js.map"
+    "main.css": "/phong-portfolio/static/css/main.befe44e4.css",
+    "main.js": "/phong-portfolio/static/js/main.fd911d7c.js",
+    "static/media/ntua.png": "/phong-portfolio/static/media/ntua.25622cee54d8cd913e59.png",
+    "static/media/kit.png": "/phong-portfolio/static/media/kit.68f32777c86af5b50bac.png",
+    "static/media/pbb.png": "/phong-portfolio/static/media/pbb.e602e4e01af5afba3746.png",
+    "static/media/german_french.jpg": "/phong-portfolio/static/media/german_french.f98032d9cd764a6ce6d8.jpg",
+    "static/media/bertrandt.jpg": "/phong-portfolio/static/media/bertrandt.1295e320c454da87ebd4.jpg",
+    "static/media/school.svg": "/phong-portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "static/media/work.svg": "/phong-portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "index.html": "/phong-portfolio/index.html",
+    "main.befe44e4.css.map": "/phong-portfolio/static/css/main.befe44e4.css.map",
+    "main.fd911d7c.js.map": "/phong-portfolio/static/js/main.fd911d7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d80c684.css",
-    "static/js/main.70b74b87.js"
+    "static/css/main.befe44e4.css",
+    "static/js/main.fd911d7c.js"
   ]
 }
