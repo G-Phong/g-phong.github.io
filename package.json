@@ -1,6 +1,6 @@
 {
   "homepage": "http://g-phong.github.io/phong-portfolio",
-  "name": "timeline",
+  "name": "phong-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
