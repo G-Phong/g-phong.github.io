@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d80cae3e.css",
-    "main.js": "/static/js/main.1bd9eb33.js",
+    "main.js": "/static/js/main.702fb7e7.js",
     "static/media/phong_chess_thinking.jpg": "/static/media/phong_chess_thinking.1b893612e41d8229e97e.jpg",
     "static/media/phong_portrait.jpg": "/static/media/phong_portrait.726d9b3ce309f1b70409.jpg",
     "static/media/10km_run.jpg": "/static/media/10km_run.6c46bd2e77c1896434ef.jpg",
@@ -11,18 +11,20 @@
     "static/media/phong_gym.jpg": "/static/media/phong_gym.6e3d8803ea1705e357f5.jpg",
     "static/media/phong_tum_graduate.jpg": "/static/media/phong_tum_graduate.cd4cae96340567bb2198.jpg",
     "static/media/xmc4500.png": "/static/media/xmc4500.f5857b49a17c5f76e968.png",
-    "static/media/xai_app.png": "/static/media/xai_app.84e6636bcc1ab28ea938.png",
     "static/media/thaiboxen.jpg": "/static/media/thaiboxen.8a02d3acc8918fe21afa.jpg",
     "static/media/fussball_2018.jpg": "/static/media/fussball_2018.2c6b5229dcf8b2b413e3.jpg",
     "static/media/led_matrix.png": "/static/media/led_matrix.904d3b9cbbd9070b79cd.png",
+    "static/media/xai_app.png": "/static/media/xai_app.9e6aed29a03b83f3ddf9.png",
     "static/media/beaglebone.jpg": "/static/media/beaglebone.0e221ce514a4371c6335.jpg",
     "static/media/phong_science_prague.jpg": "/static/media/phong_science_prague.2880e85ef6fe12cb786a.jpg",
     "static/media/elephant_foodtruck.jpg": "/static/media/elephant_foodtruck.f92b1c029ba34d83bc88.jpg",
+    "static/media/cpp.png": "/static/media/cpp.d8d9a2f879d60721c1ac.png",
+    "static/media/python.png": "/static/media/python.41259ded83ae0f2a4243.png",
     "static/media/gartenhaus.jpg": "/static/media/gartenhaus.f8b7e1cb6dd561d4a635.jpg",
     "static/media/kit.png": "/static/media/kit.68f32777c86af5b50bac.png",
     "static/media/pbb.png": "/static/media/pbb.e602e4e01af5afba3746.png",
-    "static/media/splitwise.png": "/static/media/splitwise.4bea98950e7a4870cdc5.png",
     "static/media/german_french.jpg": "/static/media/german_french.f98032d9cd764a6ce6d8.jpg",
+    "static/media/splitwise.png": "/static/media/splitwise.fec36fa80b55e5f94f37.png",
     "static/media/mech_eng.jpg": "/static/media/mech_eng.c6810ee409962ef8b9ba.jpg",
     "static/media/phong_greek_flag.jpg": "/static/media/phong_greek_flag.fe168143093232729222.jpg",
     "static/media/insi_singen.png": "/static/media/insi_singen.69835c0eab8b2f0d365a.png",
@@ -32,10 +34,10 @@
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/index.html",
     "main.d80cae3e.css.map": "/static/css/main.d80cae3e.css.map",
-    "main.1bd9eb33.js.map": "/static/js/main.1bd9eb33.js.map"
+    "main.702fb7e7.js.map": "/static/js/main.702fb7e7.js.map"
   },
   "entrypoints": [
     "static/css/main.d80cae3e.css",
-    "static/js/main.1bd9eb33.js"
+    "static/js/main.702fb7e7.js"
   ]
 }
