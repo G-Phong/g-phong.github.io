@@ -1,9 +1,25 @@
 import React from "react";
 
-const Header = () => {
+import "./Header.css";
+
+import img_phong_portrait from "../assets/phong_portrait.jpg";
+
+function Header() {
   return (
     <div>
-      <h1 className="title">Gia-Phong Tran</h1>
+      <div className="header-container">
+        <div>
+          <h1 className="title">Gia-Phong Tran</h1>
+        </div>
+        {/* Circular testimonial section */}
+        <div className="testimonial-container">
+          <img
+            src={img_phong_portrait}
+            alt="Phong"
+            className="testimonial-image"
+          />
+        </div>
+      </div>
       <div className="subtitle-container">
         <h2 className="subtitle">
           Mechatronics Engineer | Embedded Systems | Multilingual | Sports and
@@ -12,6 +28,5 @@ const Header = () => {
       </div>
     </div>
   );
-};
-
+}
 export default Header;
