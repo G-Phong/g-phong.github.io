@@ -37,7 +37,7 @@ function Projects() {
 
         <ProductCard
           productName="LED Matrix Control"
-          photos={[img_led_matrix, img_c]}
+          photos={[img_led_matrix, img_cpp]}
           description="Programming a LED matrix for an autonomous vehicle - C++ and a ROS-like Framework"
           url="https://github.com/G-Phong/SA-LED-matrix-UNICARagil"
           buttonText="GitHub Repo"
