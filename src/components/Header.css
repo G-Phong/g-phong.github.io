@@ -17,37 +17,35 @@
   background-size: 400% 100%;
   animation: gradientAnimation 10s ease infinite;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  height: 30vh;
+  padding: 0;
 }
 
 .title {
-    font-size: 8em;
-    text-align: center;
-    font-family: "Bebas Neue", sans-serif;
-    color: #bbbbbb;
-    margin: 0;
-    margin-left: 20vh;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    background-size: 400% 100%;
-    animation: gradientAnimation 10s ease infinite;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    flex: 1; /* Allow the title to expand and take full width */
-  }
+  font-size: 8em;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: #bbbbbb;
+  margin: 0;
+  margin-left: 20vh;
+  background-size: 400% 100%;
+  animation: gradientAnimation 10s ease infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  flex: 1; /* Allow the title to expand and take full width */
+}
 
 .testimonial-container {
-  margin-left: auto;
-  margin-right: 20px;
-  position: relative; 
-  top: 20vh; /* Align testimonial to the vertical center */
-  right: 20px; /* Adjust the right position as needed */
-  transform: translateY(-50%); /* Center testimonial vertically */
+  position: relative;
+  margin-right: 1vh;
+  margin-left: 20vh;
 }
 
 .testimonial-image {
   border-radius: 30%; /* Create a circular shape */
-  width: 25vh; /* Adjust the width of the image */
-  height: auto; /* Adjust the height of the image */
+  width: auto; /* Adjust the width of the image */
+  height: 30vh; /* Adjust the height of the image */
   object-fit: cover; /* Maintain aspect ratio and cover the container */
+  padding: 0;
 }
 
 .subtitle-container {

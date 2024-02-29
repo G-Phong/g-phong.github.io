@@ -8,19 +8,19 @@ const Navigation = ({ content, handleButtonClick }) => {
           className={`nav-button ${content === "timeline" ? "active" : ""}`}
           onClick={() => handleButtonClick("timeline")}
         >
-          My Timeline
+          timeline.
         </button>
         <button
           className={`nav-button ${content === "projects" ? "active" : ""}`}
           onClick={() => handleButtonClick("projects")}
         >
-          My Coding Projects
+          code.
         </button>
         <button
           className={`nav-button ${content === "passions" ? "active" : ""}`}
           onClick={() => handleButtonClick("passions")}
         >
-          My Passions
+          passions.
         </button>
       </div>
     </div>
