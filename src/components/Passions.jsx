@@ -121,18 +121,3 @@ function Passions() {
 }
 
 export default Passions;
-
-/*
-Fußball
-Running
-Kampfsport
-Gym
-Schach
-Prag
-TUM Abschluss
-Reisen in Griechenland
-Interkulturelles
-Vietnam (Familie)
-InSi Flüchtlingshilfe
-Foodtruck
-*/

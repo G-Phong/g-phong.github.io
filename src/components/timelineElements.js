@@ -113,7 +113,7 @@ let timelineElements = [
       </div>
     ),
     buttonText: "View thesis",
-    date: "Jun. 2013 - Aug. 2016",
+    date: "Oct. 2016 - Mar. 2020",
     icon: "school",
     image: "kit.png",
   },
@@ -130,7 +130,7 @@ let timelineElements = [
       </div>
     ),
     buttonText: "View certificate",
-    date: "Sep. 2011 - Jun. 2013",
+    date: "Sep. 2008 - Jun. 2016",
     icon: "school",
     image: "german_french.jpg",
   },
