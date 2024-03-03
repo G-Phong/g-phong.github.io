@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cc620620.css",
-    "main.js": "/static/js/main.63a7df48.js",
+    "main.js": "/static/js/main.d0140d7f.js",
     "static/media/gartenhaus.jpg": "/static/media/gartenhaus.070a545b38f44fb92be3.jpg",
     "static/media/vietnam.jpg": "/static/media/vietnam.7df98fb1e9e5301886b1.jpg",
     "static/media/phong_chess_thinking.jpg": "/static/media/phong_chess_thinking.7b04fb437dc930aaf9b2.jpg",
@@ -33,10 +33,10 @@
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/index.html",
     "main.cc620620.css.map": "/static/css/main.cc620620.css.map",
-    "main.63a7df48.js.map": "/static/js/main.63a7df48.js.map"
+    "main.d0140d7f.js.map": "/static/js/main.d0140d7f.js.map"
   },
   "entrypoints": [
     "static/css/main.cc620620.css",
-    "static/js/main.63a7df48.js"
+    "static/js/main.d0140d7f.js"
   ]
 }
