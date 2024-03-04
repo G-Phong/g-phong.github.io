@@ -51,6 +51,9 @@ let timelineElements = [
             'Explainable Artificial Intelligence in Preference-based Shift
             Planning'
           </li>
+          <li>
+            Final grade: 1.7
+          </li>
         </ul>
       </div>
     ),
@@ -109,6 +112,9 @@ let timelineElements = [
             <br />
             'Development and construction of a parcel station for autonomous
             parcel robots'
+          </li>
+          <li>
+            Final grade: 2.3
           </li>
         </ul>
       </div>

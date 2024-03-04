@@ -16,7 +16,11 @@ h3 {
 }
 
 .date {
-  color: rgb(201, 251, 255);
+  color: rgb(255, 255, 255)
+}
+
+.custom-date {
+  color: white; /* Set the color to white */
 }
 
 #description {
@@ -92,7 +96,7 @@ h3 {
 }
 
 .nav-button:hover {
-  background-color: #f3bc3c;
+  background-color: #70cfd6;
 }
 
 /**/

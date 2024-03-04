@@ -71,7 +71,7 @@ function Timeline() {
           <VerticalTimelineElement
             key={element.id}
             date={element.date}
-            dateClassName="date"
+            dateClassName="custom-date" // Added className for the date
             iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
             icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
           >
@@ -87,7 +87,7 @@ function Timeline() {
                   {element.location}
                 </h5>
                 <p id="description">{element.description}</p>
-                {showButton && (
+                {/* {showButton && (
                   <a
                     className={`button ${
                       isWorkIcon ? "workButton" : "schoolButton"
@@ -96,7 +96,7 @@ function Timeline() {
                   >
                     {element.buttonText}
                   </a>
-                )}
+                )} */}
               </div>
             </div>
           </VerticalTimelineElement>
