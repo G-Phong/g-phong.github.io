@@ -15,6 +15,7 @@ import img_foodtruck from "../assets/elephant_foodtruck.jpg";
 import img_thaiboxen from "../assets/thaiboxen.jpg";
 import img_insi_singen from "../assets/insi_singen.png";
 import img_vietnam from "../assets/vietnam.jpg";
+import img_phong_chess_fide from "../assets/fide_phong_cropped.png"
 
 import TypingEffect from "./TypingEffect";
 
@@ -66,6 +67,10 @@ function Passions() {
             <div>
               <img src={img_phong_chess_thinking} alt="Chess Thinking" />
               <p className="legend">Thinking about the next moves ♚</p>
+            </div>
+            <div>
+              <img src={img_phong_chess_fide} alt="Chess Fide" />
+              <p className="legend">My official FIDE Rating ♚</p>
             </div>
             <div>
               <img src={img_phong_science} alt="Science in Prague" />
