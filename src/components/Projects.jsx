@@ -20,18 +20,18 @@ function Projects() {
 
       <div className="card-container">
         <ProductCard
-          productName="Expense Tracker"
-          photos={[img_splitwise, img_cpp]}
-          description="Terminal-based Splitwise Clone - written in C++"
-          url="https://github.com/G-Phong/Expense-Tracker"
+          productName="Real-Time Programming"
+          photos={[img_beaglebone, img_c]}
+          description="Programming of a BeagleBone microcontroller - low-level coding with C"
+          url="https://github.com/G-Phong/EGR-microcontroller"
           buttonText="GitHub Repo"
         ></ProductCard>
 
         <ProductCard
-          productName="XAI Web App"
-          photos={[img_xai_app, img_python, img_react]}
-          description="Master thesis 2023: Explainable AI for Preference-based Shift Scheduling - Python Flask and React"
-          url="https://github.com/G-Phong/XAI-scheduling-model"
+          productName="Embedded Security"
+          photos={[img_xmc4500, img_c]}
+          description="Exploiting vulnerabilities on a microcontroller - low-level coding with C"
+          url="https://github.com/G-Phong/ESS-Cybersecurity"
           buttonText="GitHub Repo"
         ></ProductCard>
 
@@ -44,18 +44,18 @@ function Projects() {
         ></ProductCard>
 
         <ProductCard
-          productName="Real-Time Programming"
-          photos={[img_beaglebone, img_c]}
-          description="Programming of a BeagleBone microcontroller - low-level coding with C"
-          url="https://github.com/G-Phong/EGR-microcontroller"
+          productName="Expense Tracker"
+          photos={[img_splitwise, img_cpp]}
+          description="Terminal-based Splitwise Clone - written in C++"
+          url="https://github.com/G-Phong/Expense-Tracker"
           buttonText="GitHub Repo"
         ></ProductCard>
 
         <ProductCard
-          productName="Embedded Security"
-          photos={[img_xmc4500, img_c]}
-          description="Exploiting vulnerabilities on a microcontroller - lowe-level coding with C"
-          url="https://github.com/G-Phong/ESS-Cybersecurity"
+          productName="XAI Web App"
+          photos={[img_xai_app, img_python, img_react]}
+          description="Master thesis 2023: Explainable AI for Preference-based Shift Scheduling - Python Flask and React"
+          url="https://github.com/G-Phong/XAI-scheduling-model"
           buttonText="GitHub Repo"
         ></ProductCard>
       </div>

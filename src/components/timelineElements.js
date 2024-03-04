@@ -1,26 +1,5 @@
 let timelineElements = [
-  {
-    id: 1,
-    title: "M. Sc. Mechatronics and Robotics",
-    location: "Technical University of Munich (TUM), Munich",
-    description: (
-      <div>
-        <ul>
-          <li>Specialization in computer science and embedded systems.</li>
-          <li>
-            Master's thesis:
-            <br />
-            'Explainable Artificial Intelligence in Preference-based Shift
-            Planning'
-          </li>
-        </ul>
-      </div>
-    ),
-    buttonText: "View GitHub Repo",
-    date: "Oct. 2020 – Jan. 2024",
-    icon: "school",
-    image: "tum.png",
-  },
+  
   {
     id: 9,
     title: "Working Student at Deutsche Pfandbriefbank AG, Garching",
@@ -57,6 +36,28 @@ let timelineElements = [
     buttonText: "View impressions",
     icon: "school",
     image: "ntua.png",
+  },
+  {
+    id: 1,
+    title: "M. Sc. Mechatronics and Robotics",
+    location: "Technical University of Munich (TUM), Munich",
+    description: (
+      <div>
+        <ul>
+          <li>Specialization in computer science and embedded systems.</li>
+          <li>
+            Master's thesis:
+            <br />
+            'Explainable Artificial Intelligence in Preference-based Shift
+            Planning'
+          </li>
+        </ul>
+      </div>
+    ),
+    buttonText: "View GitHub Repo",
+    date: "Oct. 2020 – Jan. 2024",
+    icon: "school",
+    image: "tum.png",
   },
   {
     id: 2,

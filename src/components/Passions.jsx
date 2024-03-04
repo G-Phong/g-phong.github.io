@@ -5,7 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import img_phong_chess_thinking from "../assets/phong_chess_thinking.jpg";
 import img_phong_run from "../assets/10km_run.jpg";
 import img_fussball_2018 from "../assets/fussball_2018.jpg";
-import img_gartenhaus from "../assets/gartenhaus.jpg";
 import img_internationals from "../assets/internationals_prague.jpg";
 import img_phong_greek_flag from "../assets/phong_greek_flag.jpg";
 import img_phong_gym from "../assets/phong_gym.jpg";
