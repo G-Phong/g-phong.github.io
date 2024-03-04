@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.cc620620.css",
-    "main.js": "/static/js/main.d0140d7f.js",
+    "main.js": "/static/js/main.4babbcf5.js",
     "static/media/gartenhaus.jpg": "/static/media/gartenhaus.070a545b38f44fb92be3.jpg",
     "static/media/vietnam.jpg": "/static/media/vietnam.7df98fb1e9e5301886b1.jpg",
     "static/media/phong_chess_thinking.jpg": "/static/media/phong_chess_thinking.7b04fb437dc930aaf9b2.jpg",
     "static/media/phong_portrait.jpg": "/static/media/phong_portrait.726d9b3ce309f1b70409.jpg",
     "static/media/phong_greek_flag.jpg": "/static/media/phong_greek_flag.d90f2d0cc4ceaee8d0d7.jpg",
+    "static/media/fide_phong_cropped.png": "/static/media/fide_phong_cropped.28e85b47f4019659bf49.png",
     "static/media/internationals_prague.jpg": "/static/media/internationals_prague.7b88bbe03681dd43bd05.jpg",
     "static/media/10km_run.jpg": "/static/media/10km_run.c0f04c04073c7eef87a2.jpg",
     "static/media/ntua.png": "/static/media/ntua.25622cee54d8cd913e59.png",
@@ -33,10 +34,10 @@
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/index.html",
     "main.cc620620.css.map": "/static/css/main.cc620620.css.map",
-    "main.d0140d7f.js.map": "/static/js/main.d0140d7f.js.map"
+    "main.4babbcf5.js.map": "/static/js/main.4babbcf5.js.map"
   },
   "entrypoints": [
     "static/css/main.cc620620.css",
-    "static/js/main.d0140d7f.js"
+    "static/js/main.4babbcf5.js"
   ]
 }
