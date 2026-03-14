@@ -1,10 +1,11 @@
 .footer {
-    display: flex; /* Use flexbox to align items */
-    align-items: center; /* Align items vertically */
-    justify-content: space-between; /* Add space between content and social buttons */
-    background-color: #333;
-    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0a0a0a;
+    color: #888888;
     width: 100%;
+    border-top: 1px solid #2a2a2a;
   }
   
   .footer-content {

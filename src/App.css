@@ -1,8 +1,8 @@
 body {
-  background: #3da3d5;
+  background: #0f0f0f;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  color: rgb(53, 53, 53);
+  color: #e0e0e0;
 }
 
 h3 {
@@ -10,9 +10,25 @@ h3 {
 }
 
 .vertical-timeline-element-content {
-  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  background: #1a1a1a !important;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.5),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.3) !important;
   padding: 2em 3em !important;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-title,
+.vertical-timeline-element-content .vertical-timeline-element-subtitle,
+.vertical-timeline-element-content p,
+.vertical-timeline-element-content li {
+  color: #e0e0e0 !important;
+}
+
+.vertical-timeline::before {
+  background: #2a2a2a !important;
+}
+
+.vertical-timeline-element-content-arrow {
+  border-right-color: #1a1a1a !important;
 }
 
 .date {
@@ -54,7 +70,7 @@ h3 {
   .vertical-timeline-element-date {
     display: block !important;
     float: none !important;
-    color: rgb(44, 44, 44);
+    color: #888888 !important;
     margin-top: 1.5em;
   }
 }
@@ -76,7 +92,7 @@ h3 {
   height: 180px;
   object-fit: contain;
   display: block;
-  background-color: #f5f5f5;
+  background-color: #111111;
 }
 
 .buttons-container {
@@ -85,26 +101,40 @@ h3 {
 }
 
 .navigation-bar {
-  background-color: #184257;
+  background-color: #111111;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  border-bottom: 1px solid #2a2a2a;
 }
 
 .nav-button {
   flex-grow: 1;
-  width: calc(100% / 3); /* Aufteilen in 3 gleich große Teile */
+  width: calc(100% / 3);
   padding: 10px 0;
-  background-color: black;
-  color: white;
-  border: solid;
+  background-color: #111111;
+  color: #888888;
+  border: none;
+  border-right: 1px solid #2a2a2a;
+  border-bottom: 2px solid transparent;
   cursor: pointer;
   font-size: 20px;
+  transition: color 0.2s, border-bottom-color 0.2s;
+}
+
+.nav-button:last-child {
+  border-right: none;
 }
 
 .nav-button:hover {
-  background-color: #70cfd6;
+  color: #00d4ff;
+  background-color: #1a1a1a;
+}
+
+.nav-button.active {
+  color: #00d4ff;
+  border-bottom: 2px solid #00d4ff;
 }
 
 /**/

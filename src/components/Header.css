@@ -10,16 +10,15 @@
 .header-container {
   display: flex;
   align-items: center;
-  position: relative; /* Position relative for absolute positioning of testimonial */
-  background-color: rgb(148, 178, 195);
-  color: #bbbbbb;
-  justify-content: center; /* Center horizontally */
-  background: linear-gradient(to right, #a9a9a9, #40585f, #70c1cb, #6d7991);
+  position: relative;
+  justify-content: center;
+  background: linear-gradient(to right, #0f0f0f, #0d1f2d, #0a2a35, #0f0f0f);
   background-size: 400% 100%;
   animation: gradientAnimation 10s ease infinite;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 8px rgba(0, 212, 255, 0.3);
   height: 30vh;
   padding: 0;
+  border-bottom: 1px solid #1a1a1a;
 }
 
 .title {
@@ -70,9 +69,10 @@
   height: 3vh;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
-  background-color: rgb(148, 178, 195);
-  color: rgb(26, 26, 26);
+  background-color: #111111;
+  color: #888888;
   margin: 0;
   padding-top: 3vh;
   padding-bottom: 3vh;
+  border-bottom: 1px solid #2a2a2a;
 }

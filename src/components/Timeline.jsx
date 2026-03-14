@@ -20,7 +20,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 function Timeline() {
-  let workIconStyles = { background: "#06D6A0" };
+  let workIconStyles = { background: "#00d4ff" };
   let schoolIconStyles = { background: "#f9c74f" };
 
   return (
