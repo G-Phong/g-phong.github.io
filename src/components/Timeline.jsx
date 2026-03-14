@@ -3,6 +3,7 @@ import "../App.css";
 import { ReactComponent as WorkIcon } from "../assets/work.svg";
 import { ReactComponent as SchoolIcon } from "../assets/school.svg";
 import bertrandtImage from "../assets/bertrandt.jpg";
+import maibornwolffImage from "../assets/maibornwolff.jpg";
 import germanFrenchImage from "../assets/german_french.jpg";
 import javaImage from "../assets/java.png";
 import kitImage from "../assets/kit.png";
@@ -29,6 +30,9 @@ function Timeline() {
 
         let image;
         switch (element.image) {
+          case "maibornwolff.jpg":
+            image = maibornwolffImage;
+            break;
           case "bertrandt.jpg":
             image = bertrandtImage;
             break;

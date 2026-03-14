@@ -1,5 +1,40 @@
 let timelineElements = [
-  
+  {
+    id: 10,
+    title: "Software Engineer at MaibornWolff GmbH, Munich",
+    location: "Embedded Software / Smart Devices",
+    description: (
+      <div>
+        <ul>
+          <li>
+            Platform Migration: Transition of an industrial IoT gateway for
+            elevator systems from a Real-Time OS to a customized Embedded Linux
+            distribution
+          </li>
+          <li>
+            C++ & Monitoring: Developed platform services including Avahi mDNS
+            discovery and router failover mechanisms using C++ and Linux
+            internals (systemd)
+          </li>
+          <li>
+            Network Engineering: Developed high-availability network services
+            with low-level traffic troubleshooting (tcpdump/Wireshark)
+          </li>
+          <li>
+            Build & CI/CD: Architecting Yocto multi-machine setups and CMake
+            build systems with automated Bamboo CI/CD pipelines
+          </li>
+          <li>
+            BSP & Low-Level: Maintaining Linux Kernel and U-Boot bootloader
+            forks for custom ARM-based hardware revisions
+          </li>
+        </ul>
+      </div>
+    ),
+    date: "May 2024 – Present",
+    icon: "work",
+    image: "maibornwolff.jpg",
+  },
   {
     id: 9,
     title: "Working Student at Deutsche Pfandbriefbank AG, Garching",
