@@ -1,61 +1,37 @@
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
-}
-
 .header-container {
   display: flex;
   align-items: center;
   position: relative;
   justify-content: center;
-  background: linear-gradient(to right, #0f0f0f, #0d1f2d, #0a2a35, #0f0f0f);
-  background-size: 400% 100%;
-  animation: gradientAnimation 10s ease infinite;
-  text-shadow: 2px 2px 8px rgba(0, 212, 255, 0.3);
-  height: 30vh;
+  gap: 2vh;
+  background: #0f0f0f;
+  height: 25vh;
   padding: 0;
-  border-bottom: 1px solid #1a1a1a;
+  border-bottom: 1px solid #2a2a2a;
 }
 
 .title {
-  font-size: 8em;
-  text-align: center;
+  font-size: 4.5em;
   font-family: "Bebas Neue", sans-serif;
   color: #ffffff;
   margin: 0;
-  margin-left: 20vh;
-  background-size: 400% 100%;
-  animation: gradientAnimation 10s ease infinite;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  flex: 1; /* Allow the title to expand and take full width */
+  white-space: nowrap;
 }
 
 .testimonial-container {
-  position: relative;
-  margin-right: 1vh;
-  margin-left: 20vh;
-  margin-bottom: 0;
   padding: 0;
+  flex-shrink: 0;
 }
 
-/* .testimonial-container {
-  position: absolute;
-  top: 50%; 
-  transform: translateY(-50%); 
-  right: 20px;
-} */
-
 .testimonial-image {
-  border-radius: 40%; /* Create a circular shape */
-  width: auto; /* Adjust the width of the image */
-  height: 30vh; /* Adjust the height of the image */
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
-  padding: 0;
-  margin: 0;
+  width: 18vh;
+  height: 18vh;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  border: 2px solid #00d4ff;
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  display: block;
 }
 
 .subtitle-container {
