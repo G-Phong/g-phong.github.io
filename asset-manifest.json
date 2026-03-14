@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.10bd3657.css",
-    "main.js": "/static/js/main.a9779c29.js",
+    "main.js": "/static/js/main.c86aebbc.js",
     "static/media/vietnam.jpg": "/static/media/vietnam.7df98fb1e9e5301886b1.jpg",
     "static/media/phong_chess_thinking.jpg": "/static/media/phong_chess_thinking.7b04fb437dc930aaf9b2.jpg",
-    "static/media/phong_portrait.jpg": "/static/media/phong_portrait.726d9b3ce309f1b70409.jpg",
     "static/media/phong_greek_flag.jpg": "/static/media/phong_greek_flag.d90f2d0cc4ceaee8d0d7.jpg",
     "static/media/fide_phong_cropped.png": "/static/media/fide_phong_cropped.28e85b47f4019659bf49.png",
     "static/media/internationals_prague.jpg": "/static/media/internationals_prague.7b88bbe03681dd43bd05.jpg",
@@ -18,6 +17,7 @@
     "static/media/fussball_2018.jpg": "/static/media/fussball_2018.462cb31d31e06e19d353.jpg",
     "static/media/xai_app.png": "/static/media/xai_app.9e6aed29a03b83f3ddf9.png",
     "static/media/beaglebone.jpg": "/static/media/beaglebone.0e221ce514a4371c6335.jpg",
+    "static/media/phong_portrait.jpg": "/static/media/phong_portrait.63c406b26af736de9043.jpg",
     "static/media/phong_science_prague.jpg": "/static/media/phong_science_prague.7a0861262e4f1795b6c9.jpg",
     "static/media/cpp.png": "/static/media/cpp.d8d9a2f879d60721c1ac.png",
     "static/media/elephant_foodtruck.jpg": "/static/media/elephant_foodtruck.35956043d6ebdf3fc3b4.jpg",
@@ -33,10 +33,10 @@
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/index.html",
     "main.10bd3657.css.map": "/static/css/main.10bd3657.css.map",
-    "main.a9779c29.js.map": "/static/js/main.a9779c29.js.map"
+    "main.c86aebbc.js.map": "/static/js/main.c86aebbc.js.map"
   },
   "entrypoints": [
     "static/css/main.10bd3657.css",
-    "static/js/main.a9779c29.js"
+    "static/js/main.c86aebbc.js"
   ]
 }
