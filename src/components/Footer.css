@@ -15,10 +15,29 @@
   }
   
   .social-buttons {
-    width: 10%; /* Set width for social buttons */
-    display: flex; /* Use flexbox to align items */
-    justify-content: flex-end; /* Align items to the end of the container */
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
     margin-right: 5vh;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 2vh 0;
+      gap: 1vh;
+    }
+
+    .footer-content {
+      margin-left: 0;
+    }
+
+    .social-buttons {
+      width: auto;
+      margin-right: 0;
+      justify-content: center;
+    }
   }
   
   .social-icon {

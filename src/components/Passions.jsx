@@ -27,7 +27,6 @@ function Passions() {
           <Carousel
             showArrows={true}
             showThumbs={true}
-            width={550}
             transitionTime={1000}
             interval={5000}
             showIndicators={true}

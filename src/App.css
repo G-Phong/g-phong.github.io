@@ -164,11 +164,34 @@ h3 {
 
 .card-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: auto;
   padding: auto;
   padding-top: 1vh;
+  gap: 1em;
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .vertical-timeline-element-content {
+    padding: 1.2em 1.5em !important;
+  }
+
+  .profile-image {
+    height: 130px;
+  }
+
+  .nav-button {
+    font-size: 15px;
+    padding: 8px 0;
+  }
 }
 
 .typing-effect {
