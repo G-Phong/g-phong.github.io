@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../App.css";
 import { ReactComponent as WorkIcon } from "../assets/work.svg";
 import { ReactComponent as SchoolIcon } from "../assets/school.svg";
@@ -19,23 +19,13 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 function Timeline() {
-  const [content, setContent] = useState("timeline");
-
   let workIconStyles = { background: "#06D6A0" };
   let schoolIconStyles = { background: "#f9c74f" };
-
-  const handleButtonClick = (content) => {
-    setContent(content);
-  };
 
   return (
     <VerticalTimeline>
       {timelineElements.map((element) => {
         let isWorkIcon = element.icon === "work";
-        let showButton =
-          element.buttonText !== undefined &&
-          element.buttonText !== null &&
-          element.buttonText !== "";
 
         let image;
         switch (element.image) {
