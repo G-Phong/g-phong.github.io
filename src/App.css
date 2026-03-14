@@ -164,13 +164,15 @@ h3 {
 
 .card-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin: auto;
-  padding: auto;
   padding-top: 1vh;
   gap: 1em;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-sizing: border-box;
 }
 
 .carousel-container {
@@ -192,6 +194,106 @@ h3 {
     font-size: 15px;
     padding: 8px 0;
   }
+}
+
+.project-card {
+  background: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.project-card:hover {
+  border-color: #00d4ff;
+  transform: translateY(-2px);
+}
+
+.project-photo-container {
+  width: 200px;
+  min-width: 200px;
+  background: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  padding: 1.5em;
+  box-sizing: border-box;
+}
+
+.project-photo {
+  width: 100%;
+  height: 120px;
+  object-fit: contain;
+}
+
+.photo-counter {
+  position: absolute;
+  bottom: 4px;
+  right: 6px;
+  font-size: 0.65em;
+  color: #555555;
+}
+
+.project-body {
+  padding: 1.5em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8em;
+  flex: 1;
+  text-align: left;
+}
+
+.project-title {
+  margin: 0;
+  font-size: 1.15em;
+  color: #e0e0e0;
+}
+
+.project-description {
+  margin: 0;
+  font-size: 0.95em;
+  color: #888888;
+  line-height: 1.6;
+}
+
+.project-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+  border-left: 1px solid #2a2a2a;
+  min-width: 140px;
+}
+
+.project-link {
+  display: inline-block;
+  font-size: 0.8em;
+  color: #00d4ff;
+  text-decoration: none;
+  border: 1px solid #00d4ff;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  transition: background-color 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.project-link:hover {
+  background-color: #00d4ff;
+  color: #0f0f0f;
+}
+
+.section-title {
+  font-size: 1.8em;
+  color: #e0e0e0;
+  margin: 0.5em 0 0.5em;
+  font-weight: bold;
 }
 
 .typing-effect {
