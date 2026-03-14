@@ -144,17 +144,6 @@ h3 {
   padding-top: 3vh;
 }
 
-.carousel-wrapper {
-  padding-top: 3vh;
-}
-
-.free-time-activities .carousel.carousel-slider {
-  margin-left: auto; /* Set left margin to auto */
-  margin-right: auto; /* Set right margin to auto */
-  max-width: auto; /* Optional: Set a maximum width if needed */
-  height: auto;
-  padding: 0;
-}
 
 .projects {
   text-align: center;
@@ -175,10 +164,69 @@ h3 {
   box-sizing: border-box;
 }
 
-.carousel-container {
+.swiper-wrapper-custom {
   width: 100%;
-  max-width: 550px;
-  margin: 0 auto;
+  padding: 2vh 0 4vh;
+}
+
+.passions-swiper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto !important;
+  padding-bottom: 3em !important;
+}
+
+.passions-swiper .swiper-slide {
+  width: 430px !important;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+}
+
+.passions-swiper .swiper-slide img {
+  width: 430px;
+  height: 540px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.slide-caption {
+  padding: 0.8em 1em;
+  font-size: 0.85em;
+  color: #888888;
+  text-align: center;
+  margin: 0;
+  background: #1a1a1a;
+}
+
+/* Swiper navigation arrows */
+.passions-swiper .swiper-button-next,
+.passions-swiper .swiper-button-prev {
+  color: #00d4ff !important;
+}
+
+/* Swiper pagination dots */
+.passions-swiper .swiper-pagination-bullet {
+  background: #444444 !important;
+  opacity: 1;
+}
+
+.passions-swiper .swiper-pagination-bullet-active {
+  background: #00d4ff !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .passions-swiper .swiper-slide {
+    width: 300px !important;
+  }
+
+  .passions-swiper .swiper-slide img {
+    width: 300px;
+    height: 380px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
