@@ -41,8 +41,14 @@
   }
   
   .social-icon {
-    width: 30px; /* Adjust the width of the social icons */
+    width: 30px;
     height: auto;
-    margin-right: 10px; /* Adjust the spacing between the icons */
+    margin-right: 10px;
+    filter: brightness(0) invert(1) opacity(0.55);
+    transition: opacity 0.2s;
+  }
+
+  .social-icon:hover {
+    filter: brightness(0) invert(1) opacity(1);
   }
   

@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <h3>© Gia-Phong Tran 2024</h3>
+        <h3>© Gia-Phong Tran 2026</h3>
         {/* <p>Email: giaphong.tran@tum.de</p> */}
       </div>
       <div className="social-buttons">
@@ -27,7 +27,7 @@ function Footer() {
         >
           <img src={linkedIn} alt="LinkedIn" className="social-icon" />
         </a>
-        <a href="mailto:giaphong.tran@tum.de" className="email-link">
+        <a href="mailto:giaphong.tran1998@gmail.com" className="email-link">
           <img src={email} alt="Email" className="social-icon" />
         </a>
       </div>
