@@ -1,3 +1,4 @@
+import { useRef, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
@@ -35,6 +36,51 @@ const slides = [
   { img: img_foodtruck, caption: "Food is a passion — I even worked in a burger food truck 🍔" },
 ];
 
+const STATS = [
+  { value: 2,    suffix: "+",   label: "Years as Engineer" },
+  { value: 4,    suffix: "",    label: "Languages" },
+  { value: 111,  suffix: "",    label: "Half Marathon PB",
+    format: (n) => `${Math.floor(n/60)}h${String(n%60).padStart(2,"0")}min` },
+  { value: 1680, suffix: "",    label: "FIDE Chess Rating" },
+];
+
+function useCountUp(target, duration = 1500) {
+  const [count, setCount] = useState(0);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return;
+        observer.disconnect();
+        const start = performance.now();
+        const step = (ts) => {
+          const progress = Math.min((ts - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 4);
+          setCount(Math.floor(eased * target));
+          if (progress < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+      },
+      { threshold: 0.5 }
+    );
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [target, duration]);
+
+  return { count, ref };
+}
+
+function StatCard({ value, suffix, label, format }) {
+  const { count, ref } = useCountUp(value);
+  return (
+    <div className="stat-card" ref={ref}>
+      <span className="stat-number">{format ? format(count) : `${count}${suffix}`}</span>
+      <span className="stat-label">{label}</span>
+    </div>
+  );
+}
+
 function Passions() {
   return (
     <div className="free-time-activities">
@@ -46,6 +92,12 @@ function Passions() {
           On lazy Sundays, you'll find me playing chess with friends over coffee.
         </p>
       </div>
+      <div className="stats-section" data-aos="fade-up">
+        {STATS.map((s) => (
+          <StatCard key={s.label} {...s} />
+        ))}
+      </div>
+
       <div className="skills-section" data-aos="fade-up">
         <h2 className="section-title">Tech Stack</h2>
         <div className="skills-grid">
