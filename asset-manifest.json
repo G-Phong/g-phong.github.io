@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.10914467.css",
-    "main.js": "/static/js/main.91d6b032.js",
+    "main.css": "/static/css/main.464b2d49.css",
+    "main.js": "/static/js/main.93c87eda.js",
     "static/media/vietnam.jpg": "/static/media/vietnam.7df98fb1e9e5301886b1.jpg",
     "static/media/phong_chess_thinking.jpg": "/static/media/phong_chess_thinking.7b04fb437dc930aaf9b2.jpg",
     "static/media/phong_greek_flag.jpg": "/static/media/phong_greek_flag.d90f2d0cc4ceaee8d0d7.jpg",
@@ -32,11 +32,11 @@
     "static/media/school.svg": "/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "index.html": "/index.html",
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
-    "main.10914467.css.map": "/static/css/main.10914467.css.map",
-    "main.91d6b032.js.map": "/static/js/main.91d6b032.js.map"
+    "main.464b2d49.css.map": "/static/css/main.464b2d49.css.map",
+    "main.93c87eda.js.map": "/static/js/main.93c87eda.js.map"
   },
   "entrypoints": [
-    "static/css/main.10914467.css",
-    "static/js/main.91d6b032.js"
+    "static/css/main.464b2d49.css",
+    "static/js/main.93c87eda.js"
   ]
 }
