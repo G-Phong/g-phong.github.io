@@ -23,6 +23,15 @@ function Timeline() {
   let schoolIconStyles = { background: "var(--accent-school)" };
 
   return (
+    <>
+      <div className="bio-card">
+        <p className="bio-text">
+          I build close to the metal — Embedded Linux and C++ on real hardware.
+          Currently at MaibornWolff Munich, shipping IoT systems for the elevator industry.
+          Recently fell in love with long-distance running, marathons included.
+          On lazy Sundays, you'll find me playing chess with friends over coffee.
+        </p>
+      </div>
     <VerticalTimeline>
       {timelineElements.map((element) => {
         let isWorkIcon = element.icon === "work";
@@ -96,6 +105,7 @@ function Timeline() {
         );
       })}
     </VerticalTimeline>
+    </>
   );
 }
 

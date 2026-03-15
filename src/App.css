@@ -419,6 +419,35 @@ h3 {
   font-weight: bold;
 }
 
+/* ── Bio Card ──────────────────────────────────────────────────── */
+.bio-card {
+  max-width: 700px;
+  margin: 2.5em auto 0;
+  padding: 1.5em 2em;
+  border-left: 3px solid var(--accent);
+  background: var(--bg-secondary);
+  border-radius: 0 8px 8px 0;
+}
+
+.bio-text {
+  margin: 0;
+  font-size: 1.05em;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+  .bio-card {
+    margin: 1.5em 1em 0;
+    padding: 1em 1.2em;
+  }
+
+  .bio-text {
+    font-size: 0.95em;
+  }
+}
+
 .typing-effect {
   font-size: 24px;
   font-weight: bold;
