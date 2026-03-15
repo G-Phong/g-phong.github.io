@@ -3,22 +3,22 @@ const Navigation = ({ content, handleButtonClick, isDark, toggleTheme }) => {
     <div className="navigation-bar">
       <div className="buttons-container">
         <button
-          className={`nav-button ${content === "timeline" ? "active" : ""}`}
-          onClick={() => handleButtonClick("timeline")}
+          className={`nav-button ${content === "about" ? "active" : ""}`}
+          onClick={() => handleButtonClick("about")}
         >
-          timeline.
+          about.
+        </button>
+        <button
+          className={`nav-button ${content === "xp" ? "active" : ""}`}
+          onClick={() => handleButtonClick("xp")}
+        >
+          journey.
         </button>
         <button
           className={`nav-button ${content === "projects" ? "active" : ""}`}
           onClick={() => handleButtonClick("projects")}
         >
           code.
-        </button>
-        <button
-          className={`nav-button ${content === "passions" ? "active" : ""}`}
-          onClick={() => handleButtonClick("passions")}
-        >
-          passions.
         </button>
       </div>
       <div className="theme-switch-wrapper">

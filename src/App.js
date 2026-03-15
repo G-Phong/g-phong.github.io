@@ -9,7 +9,7 @@ import Content from "./components/Content";
 import ParticlesBackground from "./components/ParticlesBackground";
 
 function App() {
-  const [content, setContent] = useState("timeline");
+  const [content, setContent] = useState("about");
   const [isDark, setIsDark] = useState(() => {
     return localStorage.getItem("theme") !== "light";
   });

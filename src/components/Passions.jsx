@@ -38,6 +38,14 @@ const slides = [
 function Passions() {
   return (
     <div className="free-time-activities">
+      <div className="bio-card" data-aos="fade-up">
+        <p className="bio-text">
+          I build close to the metal — Embedded Linux and C++ on real hardware.
+          Currently at MaibornWolff Munich, shipping IoT systems for the elevator industry.
+          Recently fell in love with long-distance running, marathons included.
+          On lazy Sundays, you'll find me playing chess with friends over coffee.
+        </p>
+      </div>
       <h2 className="section-title" data-aos="fade-up">My Passions</h2>
       <div className="swiper-wrapper-custom" data-aos="fade-up" data-aos-delay="100">
         <Swiper
