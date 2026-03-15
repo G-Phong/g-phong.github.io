@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.464b2d49.css",
+    "main.css": "/static/css/main.654230c1.css",
     "main.js": "/static/js/main.93c87eda.js",
     "static/media/vietnam.jpg": "/static/media/vietnam.7df98fb1e9e5301886b1.jpg",
     "static/media/phong_chess_thinking.jpg": "/static/media/phong_chess_thinking.7b04fb437dc930aaf9b2.jpg",
@@ -32,11 +32,11 @@
     "static/media/school.svg": "/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "index.html": "/index.html",
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
-    "main.464b2d49.css.map": "/static/css/main.464b2d49.css.map",
+    "main.654230c1.css.map": "/static/css/main.654230c1.css.map",
     "main.93c87eda.js.map": "/static/js/main.93c87eda.js.map"
   },
   "entrypoints": [
-    "static/css/main.464b2d49.css",
+    "static/css/main.654230c1.css",
     "static/js/main.93c87eda.js"
   ]
 }
