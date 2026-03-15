@@ -93,8 +93,11 @@
   }
 
   .title {
-    font-size: 2.6em;
+    font-size: 2em;
     text-align: center;
+    white-space: normal;
+    word-break: break-word;
+    padding: 0 0.5em;
   }
 
   .testimonial-image {
@@ -103,8 +106,9 @@
   }
 
   .header-actions {
-    top: 0.6em;
-    right: 0.6em;
+    position: static;
+    order: 3;
+    justify-content: center;
     gap: 0.5em;
   }
 

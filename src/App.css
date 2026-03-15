@@ -412,6 +412,35 @@ h3 {
   color: var(--bg-primary);
 }
 
+@media only screen and (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-photo-container {
+    width: 100%;
+    min-width: unset;
+    padding: 1em;
+    height: 140px;
+  }
+
+  .project-photo {
+    height: 100%;
+  }
+
+  .project-body {
+    padding: 1em 1.2em;
+  }
+
+  .project-action {
+    border-left: none;
+    border-top: 1px solid var(--border);
+    min-width: unset;
+    padding: 0.8em 1.2em;
+    justify-content: flex-start;
+  }
+}
+
 .section-title {
   font-size: 1.8em;
   color: var(--text-primary);
@@ -561,6 +590,13 @@ h3 {
   font-size: 0.85em;
 }
 
+@media only screen and (max-width: 768px) {
+  .languages-section {
+    margin: 1.5em 1em 0;
+    padding: 1.2em 1.2em;
+  }
+}
+
 /* ── Bio Card ──────────────────────────────────────────────────── */
 .bio-card {
   max-width: 700px;
@@ -635,13 +671,15 @@ h3 {
 
 @media only screen and (max-width: 768px) {
   .stats-section {
+    flex-wrap: wrap;
     gap: 0.8em;
     margin: 1.5em 1em 0;
   }
 
   .stat-card {
+    flex: 1 1 calc(50% - 0.8em);
     padding: 0.9em 1.2em;
-    min-width: 100px;
+    min-width: unset;
   }
 
   .stat-number {
