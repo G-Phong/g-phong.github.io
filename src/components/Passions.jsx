@@ -46,6 +46,45 @@ function Passions() {
           On lazy Sundays, you'll find me playing chess with friends over coffee.
         </p>
       </div>
+      <div className="skills-section" data-aos="fade-up">
+        <h2 className="section-title">Tech Stack</h2>
+        <div className="skills-grid">
+          {[
+            { label: "Languages", skills: [
+              { name: "Shell / Bash", icon: "devicon-bash-plain" },
+              { name: "Python",       icon: "devicon-python-plain colored" },
+              { name: "C++",          icon: "devicon-cplusplus-plain colored" },
+            ]},
+            { label: "Embedded", skills: [
+              { name: "Yocto Project",   icon: null },
+              { name: "Embedded Linux",  icon: "devicon-linux-plain" },
+            ]},
+            { label: "DevOps & Tools", skills: [
+              { name: "Git",           icon: "devicon-git-plain colored" },
+              { name: "Docker",        icon: "devicon-docker-plain colored" },
+              { name: "Bamboo CI/CD",  icon: "devicon-bamboo-plain colored" },
+            ]},
+            { label: "Agile", skills: [
+              { name: "Scrum",  icon: null },
+              { name: "Kanban", icon: null },
+              { name: "Jira",   icon: "devicon-jira-plain colored" },
+            ]},
+          ].map(({ label, skills }) => (
+            <div key={label} className="skill-category">
+              <span className="skill-category-label">{label}</span>
+              <div className="skill-badges">
+                {skills.map(({ name, icon }) => (
+                  <div key={name} className="skill-badge">
+                    {icon && <i className={`${icon} skill-icon`}></i>}
+                    <span>{name}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
       <h2 className="section-title" data-aos="fade-up">My Passions</h2>
       <div className="swiper-wrapper-custom" data-aos="fade-up" data-aos-delay="100">
         <Swiper
