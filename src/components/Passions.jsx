@@ -38,8 +38,8 @@ const slides = [
 function Passions() {
   return (
     <div className="free-time-activities">
-      <h2 className="section-title">My Passions</h2>
-      <div className="swiper-wrapper-custom">
+      <h2 className="section-title" data-aos="fade-up">My Passions</h2>
+      <div className="swiper-wrapper-custom" data-aos="fade-up" data-aos-delay="100">
         <Swiper
           modules={[EffectCoverflow, Autoplay, Navigation, Pagination]}
           effect="coverflow"

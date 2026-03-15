@@ -24,7 +24,7 @@ function Timeline() {
 
   return (
     <>
-      <div className="bio-card">
+      <div className="bio-card" data-aos="fade-up">
         <p className="bio-text">
           I build close to the metal — Embedded Linux and C++ on real hardware.
           Currently at MaibornWolff Munich, shipping IoT systems for the elevator industry.

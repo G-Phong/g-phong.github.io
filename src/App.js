@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./App.css";
 
 import Header from "./components/Header";
@@ -13,12 +15,17 @@ function App() {
   });
 
   useEffect(() => {
+    AOS.init({ duration: 600, once: true, easing: "ease-out-cubic", offset: 80 });
+  }, []);
+
+  useEffect(() => {
     document.body.classList.toggle("light", !isDark);
     localStorage.setItem("theme", isDark ? "dark" : "light");
   }, [isDark]);
 
   const handleButtonClick = (content) => {
     setContent(content);
+    setTimeout(() => AOS.refresh(), 50);
   };
 
   const toggleTheme = () => {
