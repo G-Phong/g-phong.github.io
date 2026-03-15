@@ -4,18 +4,20 @@
   position: relative;
   justify-content: center;
   gap: 2vh;
-  background: #0f0f0f;
+  background: var(--bg-primary);
   height: 25vh;
   padding: 0;
-  border-bottom: 1px solid #2a2a2a;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.3s;
 }
 
 .title {
   font-size: 4.5em;
   font-family: "Bebas Neue", sans-serif;
-  color: #ffffff;
+  color: var(--text-white);
   margin: 0;
   white-space: nowrap;
+  transition: color 0.3s;
 }
 
 .testimonial-container {
@@ -29,14 +31,29 @@
   object-fit: cover;
   object-position: center top;
   border-radius: 50%;
-  border: 2px solid #00d4ff;
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  border: 2px solid var(--accent);
+  box-shadow: 0 0 20px var(--accent-glow);
   display: block;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .subtitle-container {
   display: flex;
   align-items: center;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: var(--bg-tertiary);
+  color: var(--text-secondary);
+  margin: 0;
+  padding: 2vh 2vw;
+  border-bottom: 1px solid var(--border);
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 @media only screen and (max-width: 768px) {
@@ -62,17 +79,4 @@
     padding: 1vh 3vw;
     line-height: 1.2;
   }
-}
-
-.subtitle {
-  font-size: 1.5em;
-  width: 100%;
-  text-align: center;
-  font-family: "Bebas Neue", sans-serif;
-  background-color: #111111;
-  color: #888888;
-  margin: 0;
-  padding: 2vh 2vw;
-  border-bottom: 1px solid #2a2a2a;
-  box-sizing: border-box;
 }

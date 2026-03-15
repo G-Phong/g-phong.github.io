@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 
 import Header from "./components/Header";
@@ -7,9 +7,21 @@ import Content from "./components/Content";
 
 function App() {
   const [content, setContent] = useState("timeline");
+  const [isDark, setIsDark] = useState(() => {
+    return localStorage.getItem("theme") !== "light";
+  });
+
+  useEffect(() => {
+    document.body.classList.toggle("light", !isDark);
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+  }, [isDark]);
 
   const handleButtonClick = (content) => {
     setContent(content);
+  };
+
+  const toggleTheme = () => {
+    setIsDark((prev) => !prev);
   };
 
   return (
@@ -18,9 +30,10 @@ function App() {
       <Navigation
         content={content}
         handleButtonClick={handleButtonClick}
+        isDark={isDark}
+        toggleTheme={toggleTheme}
       />
       <Content content={content} />
-      
     </div>
   );
 }

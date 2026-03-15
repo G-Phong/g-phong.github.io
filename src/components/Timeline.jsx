@@ -1,4 +1,3 @@
-import React from "react";
 import "../App.css";
 import { ReactComponent as WorkIcon } from "../assets/work.svg";
 import { ReactComponent as SchoolIcon } from "../assets/school.svg";
@@ -20,8 +19,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 function Timeline() {
-  let workIconStyles = { background: "#00d4ff" };
-  let schoolIconStyles = { background: "#f9c74f" };
+  let workIconStyles = { background: "var(--accent-work)" };
+  let schoolIconStyles = { background: "var(--accent-school)" };
 
   return (
     <VerticalTimeline>
