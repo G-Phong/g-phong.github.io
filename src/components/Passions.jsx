@@ -85,6 +85,24 @@ function Passions() {
         </div>
       </div>
 
+      <div className="languages-section" data-aos="fade-up">
+        <h2 className="section-title">Languages</h2>
+        <div className="language-badges">
+          {[
+            { code: "de", name: "German",     level: "Native" },
+            { code: "vn", name: "Vietnamese", level: "Native" },
+            { code: "gb", name: "English",    level: "C1" },
+            { code: "fr", name: "French",     level: "B2" },
+          ].map(({ code, name, level }) => (
+            <div key={name} className="language-badge">
+              <span className={`fi fi-${code} language-flag`}></span>
+              <span className="language-name">{name}</span>
+              <span className="language-level">{level}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
       <h2 className="section-title" data-aos="fade-up">My Passions</h2>
       <div className="swiper-wrapper-custom" data-aos="fade-up" data-aos-delay="100">
         <Swiper
