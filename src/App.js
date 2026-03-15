@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import Content from "./components/Content";
+import ParticlesBackground from "./components/ParticlesBackground";
 
 function App() {
   const [content, setContent] = useState("timeline");
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <div>
+      <ParticlesBackground isDark={isDark} />
       <Header />
       <Navigation
         content={content}
