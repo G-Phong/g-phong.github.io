@@ -35,12 +35,10 @@ function App() {
   return (
     <div>
       <ParticlesBackground isDark={isDark} />
-      <Header />
+      <Header isDark={isDark} toggleTheme={toggleTheme} />
       <Navigation
         content={content}
         handleButtonClick={handleButtonClick}
-        isDark={isDark}
-        toggleTheme={toggleTheme}
       />
       <Content content={content} />
     </div>

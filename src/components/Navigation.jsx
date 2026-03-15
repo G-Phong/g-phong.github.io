@@ -1,4 +1,4 @@
-const Navigation = ({ content, handleButtonClick, isDark, toggleTheme }) => {
+const Navigation = ({ content, handleButtonClick }) => {
   return (
     <div className="navigation-bar">
       <div className="buttons-container">
@@ -20,14 +20,6 @@ const Navigation = ({ content, handleButtonClick, isDark, toggleTheme }) => {
         >
           code.
         </button>
-      </div>
-      <div className="theme-switch-wrapper">
-        <span className="theme-label">🌙</span>
-        <label className="theme-switch">
-          <input type="checkbox" checked={!isDark} onChange={toggleTheme} />
-          <span className="theme-slider"></span>
-        </label>
-        <span className="theme-label">☀️</span>
       </div>
     </div>
   );

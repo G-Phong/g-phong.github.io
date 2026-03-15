@@ -56,6 +56,33 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
+.header-actions {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.cv-download-btn {
+  display: inline-block;
+  padding: 0.4em 1em;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 0.05em;
+  transition: background-color 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.cv-download-btn:hover {
+  background-color: var(--accent);
+  color: var(--bg-primary);
+}
+
 @media only screen and (max-width: 768px) {
   .header-container {
     flex-direction: column;
@@ -72,6 +99,17 @@
   .testimonial-image {
     width: 16vh;
     height: 16vh;
+  }
+
+  .header-actions {
+    top: 0.6em;
+    right: 0.6em;
+    gap: 0.5em;
+  }
+
+  .cv-download-btn {
+    font-size: 0.7em;
+    padding: 0.3em 0.7em;
   }
 
   .subtitle {
