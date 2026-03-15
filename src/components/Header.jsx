@@ -26,11 +26,11 @@ function Header({ isDark, toggleTheme }) {
             className="testimonial-image"
           />
         </div>
-        <h1 className="title">Gia-Phong Tran</h1>
+        <h1 className="title">Hi, I'm Gia-Phong Tran</h1>
       </div>
       <div className="subtitle-container">
         <h2 className="subtitle">
-          Embedded Linux Engineer | C++ & IoT | Marathon Runner | Chess Enthusiast
+          embedded linux engineer · marathon runner · chess enthusiast
         </h2>
       </div>
     </div>

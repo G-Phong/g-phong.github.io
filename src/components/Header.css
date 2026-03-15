@@ -43,14 +43,15 @@
 }
 
 .subtitle {
-  font-size: 1.5em;
+  font-size: 1.4em;
   width: 100%;
   text-align: center;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.06em;
   background-color: var(--bg-tertiary);
   color: var(--text-secondary);
   margin: 0;
-  padding: 2vh 2vw;
+  padding: 1.2vh 2vw;
   border-bottom: 1px solid var(--border);
   box-sizing: border-box;
   transition: background-color 0.3s, color 0.3s;
